@@ -131,7 +131,7 @@ Fixed Navigation
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="logo">
+                        <img src="{{asset('fornt_assets/images/logo.png')}}" alt="logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="tf-ion-android-menu"></span>
@@ -185,7 +185,7 @@ Welcome Slider
 		<div class="row">
 			<div class="col-lg-6 align-self-center mb-4 mb-lg-0">
 				<div class="video-player">
-					<img class="img-fluid rounded" src="images/slider/slider-bg-2.jpg" alt="">
+					<img class="img-fluid rounded" src="{{asset('fornt_assets/images/slider/slider-bg-2.jpg')}}" alt="">
 					<a class="play-icon">
 						<i class="tf-ion-ios-play" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1"></i>
 					</a>
@@ -267,7 +267,7 @@ Start About Section
 			<div class="col-md-4 col-sm-6 col-xs-12" >
 				<div class="service-block color-bg text-center">
 					<div class="service-icon text-center">
-						<img src="images/icons/bitcoin-safety-shield.png" alt="">
+						<img src="{{asset('fornt_assets/images/icons/bitcoin-safety-shield.png')}}" alt="">
 					</div>
 					<h3>Easy & Secure</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -279,7 +279,7 @@ Start About Section
 			<div class="col-md-4 col-sm-6 col-xs-12" >
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
-						<img src="images/icons/bitcoin-exchange.png" alt="">
+						<img src="{{asset('fornt_assets/images/icons/bitcoin-exchange.png')}}" alt="">
 					</div>
 					<h3>Instant Exchange</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -291,7 +291,7 @@ Start About Section
 			<div class="col-md-4 col-sm-6 col-xs-12 mx-auto"  >
 				<div class="service-block color-bg text-center">
 					<div class="service-icon text-center">
-						<img src="images/icons/bitcoin-network.png" alt="">
+						<img src="{{asset('fornt_assets/images/icons/bitcoin-network.png')}}" alt="">
 					</div>
 					<h3>Strong Network</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -301,7 +301,7 @@ Start About Section
             <div class="col-md-4 col-sm-6 col-xs-12" >
                 <div class="service-block color-bg text-center">
                     <div class="service-icon text-center">
-                        <img src="images/icons/bitcoin-safety-shield.png" alt="">
+                        <img src="{{asset('fornt_assets/images/icons/bitcoin-safety-shield.png')}}" alt="">
                     </div>
                     <h3>Easy & Secure</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -312,7 +312,7 @@ Start About Section
             <div class="col-md-4 col-sm-6 col-xs-12" >
                 <div class="service-block color-bg text-center">
                     <div class="service-icon text-center">
-                        <img src="images/icons/bitcoin-safety-shield.png" alt="">
+                        <img src="{{asset('fornt_assets/images/icons/bitcoin-safety-shield.png')}}" alt="">
                     </div>
                     <h3>Easy & Secure</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -323,7 +323,7 @@ Start About Section
             <div class="col-md-4 col-sm-6 col-xs-12" >
                 <div class="service-block color-bg text-center">
                     <div class="service-icon text-center">
-                        <img src="images/icons/bitcoin-safety-shield.png" alt="">
+                        <img src="{{asset('fornt_assets/images/icons/bitcoin-safety-shield.png')}}" alt="">
                     </div>
                     <h3>Easy & Secure</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
@@ -576,7 +576,7 @@ Start Call To Action
     							<!-- /client info -->
     							<!-- client photo -->
                                 <div class="media client-meta">
-                                  <img class="mr-3 client-thumb" src="images/client-logo/clients-1.jpg" alt="Generic placeholder image">
+                                  <img class="mr-3 client-thumb" src="{{asset('fornt_assets/images/client-logo/clients-1.jpg')}}" alt="Generic placeholder image">
                                   <div class="media-body">
                                     <h4 class="mt-0">Matt Cutts</h4>
                                     <p>CEO, Themefisher</p>
@@ -597,7 +597,7 @@ Start Call To Action
                                 <!-- /client info -->
                                 <!-- client photo -->
                                 <div class="media client-meta">
-                                  <img class="mr-3 client-thumb" src="images/client-logo/clients-1.jpg" alt="Generic placeholder image">
+                                  <img class="mr-3 client-thumb" src="{{asset('fornt_assets/images/client-logo/clients-1.jpg')}}" alt="Generic placeholder image">
                                   <div class="media-body">
                                     <h4 class="mt-0">Matt Cutts</h4>
                                     <p>CEO, Themefisher</p>
@@ -618,7 +618,7 @@ Start Call To Action
                                 <!-- /client info -->
                                 <!-- client photo -->
                                 <div class="media client-meta">
-                                  <img class="mr-3 client-thumb" src="images/client-logo/clients-1.jpg" alt="Generic placeholder image">
+                                  <img class="mr-3 client-thumb" src="{{asset('fornt_assets/images/client-logo/clients-1.jpg')}}" alt="Generic placeholder image">
                                   <div class="media-body">
                                     <h4 class="mt-0">Matt Cutts</h4>
                                     <p>CEO, Themefisher</p>
@@ -639,7 +639,7 @@ Start Call To Action
                                 <!-- /client info -->
                                 <!-- client photo -->
                                 <div class="media client-meta">
-                                  <img class="mr-3 client-thumb" src="images/client-logo/clients-1.jpg" alt="Generic placeholder image">
+                                  <img class="mr-3 client-thumb" src="{{asset('fornt_assets/images/client-logo/clients-1.jpg')}}" alt="Generic placeholder image">
                                   <div class="media-body">
                                     <h4 class="mt-0">Matt Cutts</h4>
                                     <p>CEO, Themefisher</p>
@@ -660,7 +660,7 @@ Start Call To Action
                                 <!-- /client info -->
                                 <!-- client photo -->
                                 <div class="media client-meta">
-                                  <img class="mr-3 client-thumb" src="images/client-logo/clients-1.jpg" alt="Generic placeholder image">
+                                  <img class="mr-3 client-thumb" src="{{asset('fornt_assets/images/client-logo/clients-1.jpg')}}" alt="Generic placeholder image">
                                   <div class="media-body">
                                     <h4 class="mt-0">Matt Cutts</h4>
                                     <p>CEO, Themefisher</p>
@@ -697,7 +697,7 @@ Start Blog Section
 			<article class="col-12 col-md-6" >
 				<div class="post-item">
 					<div class="post-thumb">
-					  	<img class="img-fluid shadow rounded" src="images/blog/post-1.jpg" alt="Generic placeholder image">
+					  	<img class="img-fluid shadow rounded" src="{{asset('fornt_assets/images/blog/post-1.jpg')}}" alt="Generic placeholder image">
 					</div>
 			  		<div class="post-title">
 				    	<h3 class="mt-0"><a href="">Ten things about Business</a></h3>
@@ -717,7 +717,7 @@ Start Blog Section
 				<article class="col-12 col-md-6" >
 					<div class="post-item">
 						<div class="post-thumb">
-						  	<img class="img-fluid shadow rounded" src="images/blog/post-2.jpg" alt="Generic placeholder image">
+						  	<img class="img-fluid shadow rounded" src="{{asset('fornt_assets/images/blog/post-2.jpg')}}" alt="Generic placeholder image">
 						</div>
 				  		<div class="post-title">
 					    	<h3 class="mt-0"><a href="">Something I need to tell you</a></h3>
@@ -849,7 +849,7 @@ Start Call To Action
     <script src="{{asset('fornt_assets/plugins/bootstrap/dist/js/bootstrap.min.js')}}"></script>
     <!-- Owl Carousel -->
     <script src="{{asset('fornt_assets/plugins/slick-carousel/slick/slick.min.js')}}"></script>
-    <script src="{{asset('fornt_assets/https://cdn.plot.ly/plotly-latest.min.js')}}"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- Smooth Scroll js -->
     <script src="{{asset('fornt_assets/plugins/smooth-scroll/dist/js/smooth-scroll.min.js')}}"></script>
 
