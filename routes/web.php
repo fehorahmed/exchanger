@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\fornt\HomeContoller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('forntend.index');
-});
+
+Route::get('/',[HomeContoller::class, 'index'])->name('home');
+Route::get('/pricing',[HomeContoller::class, 'pricing'])->name('home.pricing');
+Route::get('/contact',[HomeContoller::class, 'contact'])->name('home.contact');

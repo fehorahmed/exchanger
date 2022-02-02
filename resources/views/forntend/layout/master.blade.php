@@ -61,6 +61,7 @@
 
     <!-- Custom js -->
     <script src="{{ asset('fornt_assets/js/script.js') }}"></script>
+        @yield('script')
 
 </body>
 
